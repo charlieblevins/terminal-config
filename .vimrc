@@ -121,3 +121,9 @@ set clipboard+=unnamedplus
 
 " Use js syntax highlighting for .json files
 autocmd BufNewFile,BufRead *.json set ft=javascript
+
+" Customize vimdiff highlight colors
+hi DiffAdd      gui=none    guifg=NONE          guibg=#0f3006
+hi DiffChange   gui=none    guifg=NONE          guibg=#262626
+hi DiffDelete   gui=bold    guifg=NONE          guibg=#5b2020
+hi DiffText     gui=none    guifg=NONE          guibg=#0f3006
