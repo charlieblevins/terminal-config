@@ -1,0 +1,9 @@
+# Enable Zsh native Vi keybindings
+bindkey -v
+
+# Reduce key delay when hitting Escape to switch modes (default is 0.4s)
+export KEYTIMEOUT=1
+
+# Fix backspace behavior in insert mode
+bindkey '^?' backward-delete-char
+
