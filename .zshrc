@@ -1,4 +1,5 @@
 source "$HOME/.config/zsh/local"
 source "$HOME/.config/zsh/prompt"
 source "$HOME/.config/zsh/vimode"
+source "$HOME/.config/zsh/alias"
 export PATH="$HOME/.local/bin:$PATH"

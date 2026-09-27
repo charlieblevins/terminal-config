@@ -18,6 +18,9 @@ config.initial_rows = 28
 config.font = wezterm.font('Intel One Mono', { weight = 'Medium' })
 config.font_size = 14
 
+-- lines
+config.line_height = 1.2
+
 --------------------------
 -- Color Scheme (Theme) --
 -------------------------
