@@ -2,6 +2,8 @@ tap "steipete/tap"
 tap "unhappychoice/tap"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Fast and simple Node.js version manager
