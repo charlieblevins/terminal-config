@@ -25,9 +25,9 @@ config.font_size = 14
 --config.color_scheme = 'BirdsOfParadise'
 --config.color_scheme = 'Breath Light (Gogh)'
 --config.color_scheme = 'Breath Silverfox (Gogh)'
---config.color_scheme = 'Breeze'
+config.color_scheme = 'Breeze'
 --config.color_scheme = 'Chameleon (Gogh)'
-config.color_scheme = 'Gotham (Gogh)'
+--config.color_scheme = 'Gotham (Gogh)'
 --config.color_scheme = 'GuvboxDarkHard'
 
 config.window_decorations = 'RESIZE'
