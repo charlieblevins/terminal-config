@@ -1,3 +1,2 @@
-alias charliesrv="ssh 192.168.1.81"
-
+source "$HOME/.config/zsh/local"
 export PATH="$HOME/.local/bin:$PATH"

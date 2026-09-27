@@ -1,0 +1,2 @@
+# This file is for things that only apply to this machine
+alias charliesrv="ssh 192.168.1.81"
