@@ -3,3 +3,6 @@ alias nv="nvim"
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 
 alias ff='ffmpeg -hide_banner'
+
+# like npm ci
+alias pnpmi='pnpm install --lockfile-only'
