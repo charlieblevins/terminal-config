@@ -1,3 +1,14 @@
+# Directories
+alias conf="cd ~/.config"
+
+# Edit file
+alias zshconf="nv ~/.config/zsh"
+
+# reload zsh config
+alias zshrl="source ~/.zshrc"
+
+# Executables
+
 alias nv="nvim"
 
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'

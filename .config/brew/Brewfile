@@ -1,0 +1,27 @@
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Fast and simple Node.js version manager
+brew "fnm"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Terminal multiplexer
+brew "tmux"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+
+# golang
+go "github.com/go-delve/delve/cmd/dlv"
+go "golang.org/x/tools/gopls"
+
+# single comp specific packages
+host = `scutil --get LocalHostName`.strip
+extra = File.expand_path("~/.config/brew/Brewfile.#{host}")
+instance_eval(File.read(extra)) if File.exist?(extra)
