@@ -24,14 +24,13 @@ config.line_height = 1.2
 --------------------------
 -- Color Scheme (Theme) --
 -------------------------
---config.color_scheme = 'Belafonte Day'
---config.color_scheme = 'BirdsOfParadise'
---config.color_scheme = 'Breath Light (Gogh)'
-config.color_scheme = 'Breath Silverfox (Gogh)'
---config.color_scheme = 'Breeze'
---config.color_scheme = 'Chameleon (Gogh)'
---config.color_scheme = 'Gotham (Gogh)'
---config.color_scheme = 'GuvboxDarkHard'
+
+-- switch theme by OS
+local function scheme()
+  local dark = wezterm.gui.get_appearance():find("Dark")
+  return dark and "Catppuccin Mocha" or "Catppuccin Latte"
+end
+config.color_scheme = scheme()
 
 config.window_decorations = 'RESIZE'
 config.enable_tab_bar = false
