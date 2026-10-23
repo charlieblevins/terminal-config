@@ -24,14 +24,7 @@ config.line_height = 1.2
 --------------------------
 -- Color Scheme (Theme) --
 -------------------------
---config.color_scheme = 'Belafonte Day'
---config.color_scheme = 'BirdsOfParadise'
---config.color_scheme = 'Breath Light (Gogh)'
-config.color_scheme = 'Breath Silverfox (Gogh)'
---config.color_scheme = 'Breeze'
---config.color_scheme = 'Chameleon (Gogh)'
---config.color_scheme = 'Gotham (Gogh)'
---config.color_scheme = 'GuvboxDarkHard'
+config.color_scheme = 'Catppuccin Mocha'
 
 config.window_decorations = 'RESIZE'
 config.enable_tab_bar = false
