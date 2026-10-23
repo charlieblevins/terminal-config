@@ -1,3 +1,4 @@
 .config/wireshark/recent_common
 # for local machine only
 .config/zsh/local
+.DS_Store
