@@ -17,3 +17,5 @@ alias ff='ffmpeg -hide_banner'
 
 # like npm ci
 alias pnpmi='pnpm install --lockfile-only'
+
+alias tasks='cd ~/projects/notes/Flock\ Safety/Tasks'
