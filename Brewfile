@@ -26,5 +26,6 @@ brew "tree-sitter-cli"
 brew "zoxide"
 # Mouse control with the keyboard
 cask "mouseless"
+
 go "github.com/go-delve/delve/cmd/dlv"
 go "golang.org/x/tools/gopls"
