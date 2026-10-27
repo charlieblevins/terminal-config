@@ -4,6 +4,8 @@ tap "unhappychoice/tap"
 brew "awscli"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Fast and simple Node.js version manager
@@ -18,6 +20,8 @@ brew "graphviz"
 brew "neovim"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Terminal multiplexer
 brew "tmux"
 # Parser generator tool

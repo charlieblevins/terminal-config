@@ -10,12 +10,12 @@ alias zshrl="source ~/.zshrc"
 # Executables
 
 alias nv="nvim"
-
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
-
 alias ff='ffmpeg -hide_banner'
+alias oc='opencode'
 
 # like npm ci
 alias pnpmi='pnpm install --lockfile-only'
 
+# directories
 alias tasks='cd ~/projects/notes/Flock\ Safety/Tasks'
