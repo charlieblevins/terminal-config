@@ -32,7 +32,7 @@ local function scheme()
 end
 config.color_scheme = scheme()
 
-config.window_decorations = 'RESIZE'
+config.window_decorations = 'TITLE | RESIZE'
 config.enable_tab_bar = false
 
 -- Capital K was not working for some reason
@@ -43,6 +43,9 @@ config.keys = {
     action = act.ClearScrollback 'ScrollbackAndViewport',
   },
 }
+
+-- Start tmux on open: attach to the "main" session, or create it if it doesn't exist
+config.default_prog = { '/bin/zsh', '-l', '-c', 'tmux new-session -A -s main' }
 
 
 -- Finally, return the configuration to wezterm:
