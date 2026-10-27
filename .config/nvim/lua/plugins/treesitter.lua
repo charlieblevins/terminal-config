@@ -6,10 +6,11 @@ return {
  build = ":TSUpdate",
  config = function()
    require("nvim-treesitter").install({ "go", "gomod", "gowork",
-"gotmpl" })
+"gotmpl", "typescript", "tsx", "javascript" })
 
    vim.api.nvim_create_autocmd("FileType", {
-     pattern = { "go", "gomod", "gowork", "gotmpl" },
+     pattern = { "go", "gomod", "gowork", "gotmpl",
+"typescript", "typescriptreact", "javascript", "javascriptreact" },
      callback = function() vim.treesitter.start() end,
    })
  end,

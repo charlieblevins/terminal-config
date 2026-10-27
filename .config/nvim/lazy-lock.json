@@ -1,6 +1,7 @@
 {
   "auto-dark-mode.nvim": { "branch": "main", "commit": "2b16a24c202892e61fca7df4d2d7c4c872a44165" },
   "catppuccin": { "branch": "main", "commit": "edefef779ab08ce1a4a404713e3012b0d202bd35" },
+  "conform.nvim": { "branch": "master", "commit": "016802de402556da54c36bd7359b441266b01cdd" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "nvim-lspconfig": { "branch": "master", "commit": "77b7432d4770d23b277d37923e5a08a442d8bb07" },
   "nvim-treesitter": { "branch": "main", "commit": "29212d826054bb2948fa9d3a99eca9bf6a050eb2" },
