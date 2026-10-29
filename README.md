@@ -22,3 +22,5 @@ git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugin
 
 Run `tmux kill-server` if tmux is running.
 
+## TODO
+- open new tmux pane/window in same directory as current

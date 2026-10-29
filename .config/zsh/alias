@@ -1,8 +1,7 @@
-# Directories
-alias conf="cd ~/.config"
 
 # Edit file
-alias zshconf="nv ~/.config/zsh"
+alias nvconf="nv ~/.config"
+alias nvzshconf="nv ~/.config/zsh"
 
 # reload zsh config
 alias zshrl="source ~/.zshrc"
@@ -19,3 +18,5 @@ alias pnpmi='pnpm install --lockfile-only'
 
 # directories
 alias tasks='cd ~/projects/notes/Flock\ Safety/Tasks'
+alias conf="cd ~/.config"
+alias termconf="cd ~/projects/terminal-config"
