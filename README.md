@@ -24,3 +24,9 @@ Run `tmux kill-server` if tmux is running.
 
 ## TODO
 - open new tmux pane/window in same directory as current
+- save tmux session state to disk
+- git diff viewer or nicer cli tool
+- learn to navigate opencode tabs
+- git blame viewer or nicer cli tool
+- AST folding in neovim
+- nvim json pretty print
