@@ -24,7 +24,7 @@
 **C-w l**: move to right split
 **C-w h**: move to left split
 **]q**: runs :cnext - moves in quickfix list without moving cursor
-**]q**: runs :cprev - moves in quickfix list without moving cursor
+**[q**: runs :cprev - moves in quickfix list without moving cursor
 
 **:tabnew**: open an empty buffer in a new tab
 **:s/\\r\\n/\r/g**: replace all escaped newlines with real ones

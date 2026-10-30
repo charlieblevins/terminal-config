@@ -30,3 +30,4 @@ Run `tmux kill-server` if tmux is running.
 - git blame viewer or nicer cli tool
 - AST folding in neovim
 - nvim json pretty print
+- skill idea: search for code in a public github repo by description and output a permalink
