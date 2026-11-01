@@ -2,9 +2,11 @@
 alias conf="cd ~/.config"
 alias tconf="cd ~/projects/terminal-config"
 alias nt="cd ~/projects/notes"
+alias tasks='cd ~/projects/notes/Flock\ Safety/Tasks'
 
 # Edit file
-alias zshconf="nv ~/.config/zsh"
+alias nvconf="nv ~/.config"
+alias nvzshconf="nv ~/.config/zsh"
 
 # reload zsh config
 alias zshrl="source ~/.zshrc"
@@ -12,13 +14,10 @@ alias zshrl="source ~/.zshrc"
 # Executables
 
 alias nv="nvim"
-
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
-
 alias ff='ffmpeg -hide_banner'
+alias oc='opencode'
 
 # like npm ci
 alias pnpmi='pnpm install --lockfile-only'
-
-alias tasks='cd ~/projects/notes/Flock\ Safety/Tasks'
 

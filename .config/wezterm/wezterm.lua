@@ -44,6 +44,9 @@ config.keys = {
   },
 }
 
+-- Start tmux on open: attach to the "main" session, or create it if it doesn't exist
+config.default_prog = { '/bin/zsh', '-l', '-c', 'tmux new-session -A -s main' }
+
 
 -- Finally, return the configuration to wezterm:
 return config
