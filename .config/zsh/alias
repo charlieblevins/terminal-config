@@ -1,5 +1,7 @@
 # Directories
 alias conf="cd ~/.config"
+alias tconf="cd ~/projects/terminal-config"
+alias nt="cd ~/projects/notes"
 
 # Edit file
 alias zshconf="nv ~/.config/zsh"
@@ -19,3 +21,4 @@ alias ff='ffmpeg -hide_banner'
 alias pnpmi='pnpm install --lockfile-only'
 
 alias tasks='cd ~/projects/notes/Flock\ Safety/Tasks'
+

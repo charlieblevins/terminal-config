@@ -32,7 +32,7 @@ local function scheme()
 end
 config.color_scheme = scheme()
 
-config.window_decorations = 'RESIZE'
+config.window_decorations = 'TITLE | RESIZE'
 config.enable_tab_bar = false
 
 -- Capital K was not working for some reason

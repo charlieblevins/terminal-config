@@ -24,6 +24,8 @@ brew "tmux"
 brew "tree-sitter-cli"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
+
+brew "opencode"
 # Mouse control with the keyboard
 cask "mouseless"
 
