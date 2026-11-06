@@ -39,14 +39,13 @@
 **C-t**: go to file selection in a new tab
 **lead fF**: same as search for file but with ignored files
 **lead fG**: same as search within files but with ignored files
-**C-w d**: open floading window with full error message
-**] d**: jump to next diagnostic
-**grr**: list references in quickfix
-**C-]**: jump to definition
-**gra**: code actions menu
 
 ### LSP (Language Server Protocol) within NeoVim
 **lead**: g
 
-**lead rr**: list references to symbol under cursor
+**lead rr**: list references in quickfix
+**lead ra**: code actions menu
+
 **C-]**: go to definition of symbol under cursor
+**C-w d**: open floating window with full error message
+**] d**: jump to next diagnostic
