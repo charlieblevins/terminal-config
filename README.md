@@ -23,7 +23,6 @@ git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugin
 Run `tmux kill-server` if tmux is running.
 
 ## TODO
-- open new tmux pane/window in same directory as current
 - save tmux session state to disk
 - git diff viewer or nicer cli tool
 - learn to navigate opencode tabs
@@ -31,3 +30,4 @@ Run `tmux kill-server` if tmux is running.
 - AST folding in neovim
 - nvim json pretty print
 - skill idea: search for code in a public github repo by description and output a permalink
+- how to scroll in opencode with keyboard?

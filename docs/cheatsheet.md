@@ -37,6 +37,13 @@
 **lead ff**: search for file within working directory 
 **lead fg**: search within files within working directory 
 **C-t**: go to file selection in a new tab
+**lead fF**: same as search for file but with ignored files
+**lead fG**: same as search within files but with ignored files
+**C-w d**: open floading window with full error message
+**] d**: jump to next diagnostic
+**grr**: list references in quickfix
+**C-]**: jump to definition
+**gra**: code actions menu
 
 ### LSP (Language Server Protocol) within NeoVim
 **lead**: g
