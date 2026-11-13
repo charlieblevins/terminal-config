@@ -1,1 +1,7 @@
 export PATH="$PATH:$(go env GOPATH)/bin"
+
+# helps cgo build with ffmpeg 8
+export PKG_CONFIG_PATH=/opt/homebrew/opt/ffmpeg@8/lib/pkgconfig
+
+# ffmpeg 8 doesn't autolink from brew, so link it here
+export PATH="/opt/homebrew/opt/ffmpeg@8/bin:$PATH"

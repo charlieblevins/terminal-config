@@ -22,6 +22,12 @@ git clone -b v2.1.3 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugin
 
 Run `tmux kill-server` if tmux is running.
 
+### iTerm2
+Settings → General → Settings:
+- check "Load settings from a custom folder or URL" → `~/projects/terminal-config/iterm2`
+- "Save changes": Automatically
+- restart iTerm2
+
 ## TODO
 - save tmux session state to disk
 - git diff viewer or nicer cli tool

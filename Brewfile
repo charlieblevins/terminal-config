@@ -7,7 +7,8 @@ brew "docker"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Play, record, convert, and stream select audio and video codecs
-brew "ffmpeg"
+# version 8 is currently required for work projects
+brew "ffmpeg@8"
 # Fast and simple Node.js version manager
 brew "fnm"
 # Command-line fuzzy finder written in Go

@@ -11,6 +11,7 @@
 **lead c**: create new window and move to it
 **lead o**: focus the next pane
 **lead n**: focus the next window
+**lead d**: exit session
 
 ## Opencode
 **lead**: CTRL+x
@@ -46,6 +47,7 @@
 **lead rr**: list references in quickfix
 **lead ra**: code actions menu
 
+**K**: show type under cursor
 **C-]**: go to definition of symbol under cursor
 **C-w d**: open floating window with full error message
 **] d**: jump to next diagnostic
